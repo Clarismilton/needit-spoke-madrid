@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">41dde16edb101010367fb08039961970</block>
+        <comment>Atribui um value para a subflow output</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="Handle Overdue NeedIt Tasks">5313ed66db101010367fb08039961970</flow>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned>follow_up_task</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>clarismilton@gmail.com</sys_created_by>
+        <sys_created_on>2020-04-23 19:49:58</sys_created_on>
+        <sys_id>4ddde16edb101010367fb08039961971</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt Spoke" source="x_463818_needit_sp">b741c6a9db141010367fb080399619cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">b741c6a9db141010367fb080399619cb</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_4ddde16edb101010367fb08039961971</sys_update_name>
+        <sys_updated_by>clarismilton@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-24 12:18:56</sys_updated_on>
+        <ui_id>2237942d-abc6-4e84-a416-8e49ad2c67e0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=4ddde16edb101010367fb08039961971"/>
+    <sys_element_mapping action="delete_multiple" query="id=4ddde16edb101010367fb08039961971"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>follow_up_task</field>
+        <id>4ddde16edb101010367fb08039961971</id>
+        <sys_created_by>clarismilton@gmail.com</sys_created_by>
+        <sys_created_on>2020-04-23 19:53:02</sys_created_on>
+        <sys_id>4e8ea96edb101010367fb080399619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clarismilton@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-23 19:53:02</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_5313ed66db101010367fb08039961970</table>
+        <value>{{c404aaa5-6866-475b-ab2e-3b238e910432.Record}}</value>
+    </sys_element_mapping>
+</record_update>

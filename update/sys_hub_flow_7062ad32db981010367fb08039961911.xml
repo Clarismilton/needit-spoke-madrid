@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Este fluxo encontra tarefas NeedIt mais antigas quem um numero de dias específico e as fecha automaticamente, abrindo uma tarefa de acompanhamento para gerenciamento</description>
+        <internal_name>encontra_e_fecha_tarefas_muito_antigas</internal_name>
+        <label_cache>[{"name":"32b8ca45-d5bd-4386-acd4-deb63bc8a936.property_value","label":"1➛Property value","type":"string","base_type":"string"},{"name":"39eb2244-d110-4773-9713-41b259de4607.calculated_date","label":"2➛Calculated date","type":"glide_date","base_type":"glide_date"},{"name":"7368357b-6507-4ff2-9ed4-639e743ec026.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"7368357b-6507-4ff2-9ed4-639e743ec026.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"7368357b-6507-4ff2-9ed4-639e743ec026.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"fcede1ab-9581-4d33-9ff2-705050ec15fa.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"fcede1ab-9581-4d33-9ff2-705050ec15fa.item.number","label":"4➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"fcede1ab-9581-4d33-9ff2-705050ec15fa.item.due_date","label":"4➛NeedIt Task Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit_task","column_name":"due_date"}]</label_cache>
+        <latest_snapshot>0af8e1f6db981010367fb08039961981</latest_snapshot>
+        <master_snapshot>78e52d36db981010367fb08039961954</master_snapshot>
+        <name>Encontra e Fecha tarefas muito antigas</name>
+        <outputs/>
+        <remote_trigger_id>8de52d36db981010367fb080399619c2</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>clarismilton@gmail.com</sys_created_by>
+        <sys_created_on>2020-04-24 13:38:28</sys_created_on>
+        <sys_id>7062ad32db981010367fb08039961911</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Encontra e Fecha tarefas muito antigas</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_463818_needit_sp">b741c6a9db141010367fb080399619cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">b741c6a9db141010367fb080399619cb</sys_scope>
+        <sys_update_name>sys_hub_flow_7062ad32db981010367fb08039961911</sys_update_name>
+        <sys_updated_by>clarismilton@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-04-24 16:56:55</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=7062ad32db981010367fb08039961911"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7062ad32db981010367fb08039961911"/>
+</record_update>
